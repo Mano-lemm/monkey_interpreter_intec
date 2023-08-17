@@ -2,7 +2,8 @@
   "name": "monkey_interpreter",
   "version": "1.0.0",
   "description": "an implementation of the monkey language as described in the book \"writing an INTERPRETER in go\" by Thorsten Ball",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "tsc && node ./dist/**.js",
     "prepublish": "tsc",
