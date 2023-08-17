@@ -1,0 +1,23 @@
+{
+  "name": "monkey_interpreter",
+  "version": "1.0.0",
+  "description": "an implementation of the monkey language as described in the book \"writing an INTERPRETER in go\" by Thorsten Ball",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mano-lemm/monkey_interpreter_intec.git"
+  },
+  "author": "Mano Lemmens",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Mano-lemm/monkey_interpreter_intec/issues"
+  },
+  "homepage": "https://github.com/Mano-lemm/monkey_interpreter_intec#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
