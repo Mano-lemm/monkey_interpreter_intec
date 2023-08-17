@@ -17,10 +17,10 @@ import {
   HashLiteral,
   BooleanLiteral,
   Statement,
-} from "./ast";
-import { lexer } from "./lexer";
-import { Parser } from "./parser";
-import { TokenType } from "./types";
+} from "../src/ast";
+import { lexer } from "../src/lexer";
+import { Parser } from "../src/parser";
+import { TokenType } from "../src/types";
 import {
   checkParserErrors,
   testInfixExpression,

@@ -4,9 +4,9 @@ import {
   Identifier,
   InfixExpression,
   IntegerLiteral,
-} from "./ast";
-import { evaluate } from "./evaluator";
-import { lexer } from "./lexer";
+} from "../src/ast";
+import { evaluate } from "../src/evaluator";
+import { lexer } from "../src/lexer";
 import {
   Boolean_OBJ,
   Environment,
@@ -14,8 +14,8 @@ import {
   NULL,
   error_OBJ,
   type mk_Object,
-} from "./object";
-import { Parser } from "./parser";
+} from "../src/object";
+import { Parser } from "../src/parser";
 
 export function testLiteral(
   real: Expression,

@@ -1,4 +1,4 @@
-import { Identifier } from "./ast";
+import { Identifier } from "../src/ast";
 import {
   mk_Function,
   Integer_OBJ,
@@ -10,7 +10,7 @@ import {
   Hashkey,
   TRUE,
   FALSE,
-} from "./object";
+} from "../src/object";
 import {
   testBooleanObject,
   testEval,

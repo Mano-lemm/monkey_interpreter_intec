@@ -1,4 +1,4 @@
-import { TokenType, type token } from "./types.ts";
+import { TokenType, type token } from "./types";
 
 export interface Node {
   tokenLiteral(): string;
